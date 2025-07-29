@@ -33,7 +33,7 @@ exports.importGlacierData = async () => {
 
     const filePath = path.resolve(
       __dirname,
-      "../data/pakistan_glacier_metadata.csv"
+      "../data/glacier_pakistan_latest.csv"
     );
     const glacierData = await parseCSV(filePath);
 
